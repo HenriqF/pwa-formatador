@@ -25,5 +25,8 @@ jobs:
       - name: Browsers
         run: npx playwright install
 
+      - name: Start server
+        run: npm start &
+
       - name: testes
         run: npx playwright test
