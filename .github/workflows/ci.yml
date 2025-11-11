@@ -20,9 +20,7 @@ jobs:
           node-version: 20
 
       - name: dependencias
-        run: |
-          npm install
-          npm install --save-dev @playwright/test
+        run: npm ci
 
       - name: testes
         run: npx playwright test
