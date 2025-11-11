@@ -11,16 +11,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: 1
-      uses: actions/checkout@v4
+      - name: repo
+        uses: actions/checkout@v4
 
-    - name: nodejs
-      uses: actions/setup-node@v4
-      with:
-        node-version: 20
+      - name: setup
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
 
-    - name: dependencias
-      run: npm install
-      
-    - name: testes
-      run: npm test
+      - name: dependencias
+        run: npm install
+
+      - name: testes
+        run: npx playwright test
