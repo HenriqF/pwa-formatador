@@ -15,7 +15,7 @@
     "start-server-and-test": "^2.1.2"
   },
   "scripts": {
-    "start": "node app.js",
+    "start": "node app/app.js",
     "test:e2e": "npx start-server-and-test start http://localhost:8080 'npx playwright test'",
     "test": "playwright test"
   }
