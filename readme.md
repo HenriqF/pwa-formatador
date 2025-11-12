@@ -26,8 +26,11 @@ Uma PWA (Progressive Web Application) simple que permite formatar pequenos trech
 
 <ol>
     <li>Abra o site da PWA (que é o titulo deste readme) no navegador.  
-    <li>No canto superior direito, na barra de pesquisa, clique no ícone de instalação para instalar a PWA.
+    <li>No canto superior direito, na barra de pesquisa, clique no ícone de instalação para instalar a PWA:
 </ol>
+
+<img width="256" height="84" alt="image" src="https://github.com/user-attachments/assets/02324af5-b852-4eac-99ba-da897c5f592e" />
+
 
 ## Funcionamento:
 
@@ -44,4 +47,5 @@ Uma PWA (Progressive Web Application) simple que permite formatar pequenos trech
 `mapas` armazena arquivos .json com hashes usadas para formatações de substituição.<br>
 `app.js` é o código que faz a extensão rodar.<br>
 `index.html` e `styles.css` são a parte visual da extensão.<br>
+
 `sw.js` e `manifest.webmanifest` são usado para fazer a PWA funcionar.<br>
