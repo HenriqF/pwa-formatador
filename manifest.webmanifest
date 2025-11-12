@@ -1,7 +1,7 @@
 {
     "name" : "Editor de textos",
-    "start_url": "app/index.html",
-    "scope": "app/",
+    "start_url": "index.html",
+    "scope": "",
     "display": "standalone",
     "background_color": "#202124",
     "theme_color": "#202124",
@@ -37,5 +37,6 @@
             "type": "image/png"
         }
     ]
+
 
 }
