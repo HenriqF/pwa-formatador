@@ -1,4 +1,19 @@
 {
-  "name": "pwa-formatador",
-  "version": "1.0.0"
+  "name": "editor-bala",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sw.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "playwright": "^1.56.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1"
+  },
+  "scripts": {
+    "test": "playwright test"
+  }
 }
