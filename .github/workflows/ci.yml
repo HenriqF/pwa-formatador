@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: repo
+        uses: actions/checkout@v4
+
+      - name: setup
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: dependencias
+        run: npm ci
+
+      - name: Browsers
+        run: npx playwright install
+
+      - name: testes
+        run: npx playwright test
