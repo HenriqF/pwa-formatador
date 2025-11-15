@@ -1,6 +1,6 @@
 # [Formatador (PWA)](https://henriqf.github.io/pwa-formatador/)
 
-### Membros do grupo:
+### Feito por:
 <ul>
     <li>Henrique de Figueiredo Reinaldi
     <li>Marcelo Henrique Miyazaki
@@ -49,3 +49,4 @@ Uma PWA (Progressive Web Application) simple que permite formatar pequenos trech
 `index.html` e `styles.css` são a parte visual da extensão.<br>
 
 `sw.js` e `manifest.webmanifest` são usado para fazer a PWA funcionar.<br>
+
