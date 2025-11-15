@@ -6,7 +6,7 @@
     <li>Marcelo Henrique Miyazaki
 </ul>
 
-Uma PWA (Progressive Web Application) simple que permite formatar pequenos trechos de texto rapidamente.<br>
+Uma PWA (Progressive Web Application) simples que permite formatar pequenos trechos de texto rapidamente.<br>
 
 ## Modos de uso:
 
@@ -49,4 +49,5 @@ Uma PWA (Progressive Web Application) simple que permite formatar pequenos trech
 `index.html` e `styles.css` são a parte visual da extensão.<br>
 
 `sw.js` e `manifest.webmanifest` são usado para fazer a PWA funcionar.<br>
+
 
